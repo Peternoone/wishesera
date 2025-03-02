@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to WishesEra</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #ff6f61;
+            color: white;
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 30px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-top: -60px;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: #ff6f61;
+            margin-bottom: 15px;
+        }
+
+        .content-section {
+            margin-bottom: 40px;
+        }
+
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+        }
+
+        .category-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .category-list li {
+            font-size: 1.1rem;
+            margin: 10px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .category-list li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: #ff6f61;
+            font-weight: bold;
+        }
+
+        .cta-button {
+            background-color: #ff6f61;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .cta-button:hover {
+            background-color: #e15a4f;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+
+            .container {
+                padding: 20px;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to WishesEra</h1>
+        <p>Your Destination for Heartfelt Wishes and Memorable Moments</p>
+    </header>
+
+    <div class="container">
+        <div class="content-section">
+            <h2>Celebrate Every Moment with WishesEra</h2>
+            <p>At <strong>WishesEra</strong>, we believe that every moment deserves to be celebrated. Whether it’s a milestone in someone's life or just a simple “thinking of you” gesture, our platform is designed to bring you closer to your loved ones through thoughtful messages, heartfelt greetings, and meaningful wishes.</p>
+            <p>In a world that’s increasingly digital, it’s easy to forget the power of a handwritten card or a heartfelt message. But at<a href="https://wishesera.com/"> WishesEra</a> we’ve made it our mission to help you rekindle the art of sending beautiful, personalized wishes — for birthdays, weddings, anniversaries, holidays, or just to let someone know you care.</p>
+        </div>
+
+        <div class="content-section">
+            <h2>A Wide Range of Categories to Choose From</h2>
+            <p>WishesEra offers an extensive collection of wishes for every occasion. Whether you’re celebrating a birthday, congratulating someone on a new job, or sending sympathy during a difficult time, we’ve got you covered. Our platform is packed with hundreds of unique, customized messages for all sorts of events.</p>
+
+            <ul class="category-list">
+                <li><strong>Birthday Wishes:</strong> From funny and lighthearted to sentimental and inspiring.</li>
+                <li><strong>Wedding Wishes:</strong> Help express joy and excitement for the couple.</li>
+                <li><strong>Anniversary Messages:</strong> Let your loved ones know how much they mean to you.</li>
+                <li><strong>Holiday Greetings:</strong> Spread cheer for Christmas, New Year, and more.</li>
+                <li><strong>Sympathy Messages:</strong> Offer comfort during times of loss.</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>Why Choose WishesEra?</h2>
+            <p>Here are just a few reasons why WishesEra is the ultimate choice for sending meaningful messages:</p>
+            <ul class="category-list">
+                <li>A message for every occasion</li>
+                <li>Easy-to-use interface</li>
+                <li>Creative and unique content</li>
+                <li>Completely free to use</li>
+                <li>Helps you stay connected with loved ones</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>Share Your Wishes with the World</h2>
+            <p>Join the WishesEra community and contribute to our ever-growing collection of inspiring and thoughtful messages. Share your favorite messages with others and make every occasion brighter!</p>
+        </div>
+
+        <div class="content-section">
+            <a href="#" class="cta-button">Explore WishesEra Now</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 WishesEra. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
